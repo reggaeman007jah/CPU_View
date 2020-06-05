@@ -15,10 +15,15 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="box">
-      <span class="label">CPU (%)</span>
-      <span id="cpu">-</span>
-    </div>
+    <container>
+      <div class="box">
+        CPU Load:<br /><br /><span id="cpu">.. loading ..</span>
+      </div>
+      <!-- <div class="box">
+        <span class="label">CPU (%)</span>
+        <span id="cpu">-</span>
+      </div> -->
+    </container>
 
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
