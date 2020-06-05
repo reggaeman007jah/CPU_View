@@ -1,10 +1,12 @@
 {
   "name": "electron-quick-start",
+  "productName": "CPU_VIEW",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A minimal CPU Monitoring application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build-installer": "electron-builder"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -18,5 +20,8 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^9.0.2"
+  },
+  "dependencies": {
+    "electron-builder": "^22.7.0"
   }
 }
